@@ -10,6 +10,7 @@ public class UpdateRequest
 
     [EmailAddress]
     public string Email { get; set; }
+    public int Age { get; set; }
 
 
     private string replaceEmptyWithNull(string value)

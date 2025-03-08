@@ -16,4 +16,7 @@ public class CreateRequest
     [EmailAddress]
     public string Email { get; set; }
 
+    [Required]
+    public int Age { get; set; }
+
 }
